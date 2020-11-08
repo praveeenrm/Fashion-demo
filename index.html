@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Fashion Blog</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <h1>The Logo</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    
+    <header class="hero">
+        <h1>The Perfect Hero Image</h1>
+    </header>
+
+    <div class="container">
+        <a data-aos="fade-left" class="box1" href="#"><div></div></a>
+        <a data-aos="fade-left" class="box2" href="#"><div></div></a>
+        <a data-aos="fade-right" class="box3" href="#"><div></div></a>
+        <a data-aos="fade-up" class="box4" href="#"><div></div></a>
+        <a data-aos="fade-up"  data-aos-delay="500" class="box5" href="#"><div></div></a>
+        <a data-aos="fade-up" data-aos-delay="800" class="box6" href="#"><div></div></a>
+        <a data-aos="fade-left" class="box7" href="#"><div></div></a>
+      </div>
+
+      <div class="wrapper" data-aos="fade-up" >
+
+        <div class="carousel">
+      
+          <button type="button" id="carousel-arrow-prev" class="carousel-arrow carousel-arrow-prev" arial-label="Image précédente"></button>
+          <button type="button" id="carousel-arrow-next" class="carousel-arrow carousel-arrow-next" arial-label="Image suivante"></button>
+      
+          <img id="carousel-0" class="carousel-img carousel-img-displayed" src="http://res.cloudinary.com/dnqehhgmu/image/upload/v1509718497/winter_cttfdr.jpg" alt="Winter" />
+          <img id="carousel-1" class="carousel-img carousel-img-noDisplay" src="http://res.cloudinary.com/dnqehhgmu/image/upload/v1509718497/sea_ej0zoc.jpg" alt="Sea" />
+          <img id="carousel-2" class="carousel-img carousel-img-noDisplay" src="http://res.cloudinary.com/dnqehhgmu/image/upload/v1509718497/night_pw1bpm.jpg" alt="Night" />
+          <img id="carousel-3" class="carousel-img carousel-img-noDisplay" src="http://res.cloudinary.com/dnqehhgmu/image/upload/v1509718497/mountain_dekhfd.jpg" alt="Moutain" />
+          <img id="carousel-4" class="carousel-img carousel-img-noDisplay" src="http://res.cloudinary.com/dnqehhgmu/image/upload/v1509718497/desert_zy3uth.jpg" alt="Desert" />
+      
+        </div>
+      
+      </div>
+
+      <script src="./app.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+            offset: 300, 
+            duration: 1000
+        });
+      </script>
+</body>
+</html>
